@@ -9,12 +9,6 @@
 
 ---
 
-## 📸 Preview
-
-![The Cube - Screenshot](./preview.png)
-
----
-
 ## ✨ Features
 
 | Feature | Description |
