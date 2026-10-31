@@ -1,0 +1,13 @@
+<svg width="900" height="170" viewBox="0 0 900 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">The Cube face color palette</title>
+  <desc id="desc">Six colorful Rubik's Cube face swatches on a dark gaming background.</desc>
+  <rect width="900" height="170" rx="20" fill="#090914"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle">
+    <g><rect x="72" y="35" width="80" height="80" rx="14" fill="#F5F5F0"/><text x="112" y="145" fill="#CBD5E1" font-size="14">U · WHITE</text></g>
+    <g><rect x="212" y="35" width="80" height="80" rx="14" fill="#E03030"/><text x="252" y="145" fill="#CBD5E1" font-size="14">F · RED</text></g>
+    <g><rect x="352" y="35" width="80" height="80" rx="14" fill="#2A6FDB"/><text x="392" y="145" fill="#CBD5E1" font-size="14">R · BLUE</text></g>
+    <g><rect x="492" y="35" width="80" height="80" rx="14" fill="#2DB058"/><text x="532" y="145" fill="#CBD5E1" font-size="14">L · GREEN</text></g>
+    <g><rect x="632" y="35" width="80" height="80" rx="14" fill="#F0C020"/><text x="672" y="145" fill="#CBD5E1" font-size="14">D · YELLOW</text></g>
+    <g><rect x="772" y="35" width="80" height="80" rx="14" fill="#F07020"/><text x="812" y="145" fill="#CBD5E1" font-size="14">B · ORANGE</text></g>
+  </g>
+</svg>

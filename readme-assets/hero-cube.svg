@@ -1,0 +1,37 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">The Cube animated Rubik's Cube illustration</title>
+  <desc id="desc">A colorful isometric Rubik's Cube with neon purple and cyan glow, rotating continuously.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#090914"/><stop offset="1" stop-color="#17122E"/></linearGradient>
+    <linearGradient id="purple" x1="200" y1="100" x2="700" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#8B5CF6"/><stop offset="1" stop-color="#FF4ECD"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="32"/></filter>
+  </defs>
+  <rect width="900" height="520" rx="28" fill="url(#bg)"/>
+  <ellipse cx="450" cy="405" rx="225" ry="34" fill="#22D3EE" fill-opacity="0.22" filter="url(#soft)"/>
+  <g transform="translate(450 245)">
+    <animateTransform attributeName="transform" type="rotate" values="-3 0 0;3 0 0;-3 0 0" dur="5s" repeatCount="indefinite"/>
+    <g filter="url(#glow)">
+      <path d="M0 -180L172 -85L0 15L-172 -85L0 -180Z" fill="#F8FAFC" stroke="#090914" stroke-width="8"/>
+      <path d="M-172 -85L0 15V215L-172 115V-85Z" fill="#FF4A4A" stroke="#090914" stroke-width="8"/>
+      <path d="M0 15L172 -85V115L0 215V15Z" fill="#3B82F6" stroke="#090914" stroke-width="8"/>
+    </g>
+    <g stroke="#090914" stroke-width="7" stroke-linejoin="round">
+      <path d="M-57 -148V-18L0 15V-114L-57 -148Z" fill="#FFD93D"/>
+      <path d="M57 -148V-18L0 15V-114L57 -148Z" fill="#FF9F43"/>
+      <path d="M0 -180V-114L57 -148L0 -180Z" fill="#4EFF88"/>
+      <path d="M-114 -118V-18L-57 15V-85L-114 -118Z" fill="#FF4ECD"/>
+      <path d="M0 -52V15L-57 -18V-85L0 -52Z" fill="#FF9F43"/>
+      <path d="M57 -18V82L0 115V15L57 -18Z" fill="#4EFF88"/>
+      <path d="M-114 -18V82L-57 115V15L-114 -18Z" fill="#FFD93D"/>
+      <path d="M114 -118V-18L57 15V-85L114 -118Z" fill="#22D3EE"/>
+      <path d="M0 82V182L57 149V49L0 82Z" fill="#8B5CF6"/>
+    </g>
+  </g>
+  <g fill="#22D3EE" opacity="0.7">
+    <circle cx="105" cy="110" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="135" r="4"><animate attributeName="opacity" values="1;.2;1" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="735" cy="400" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="1.8s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="450" y="480" text-anchor="middle" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" letter-spacing="6">SCRAMBLE • ROTATE • SOLVE</text>
+</svg>

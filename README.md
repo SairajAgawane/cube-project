@@ -1,43 +1,47 @@
 <div align="center">
 
-# 🧩 The Cube
+<img src="readme-assets/hero-cube.svg" alt="Animated colorful Rubik's Cube" width="100%" />
 
-**A beautifully crafted 3D Rubik's Cube simulator — solve it, scramble it, theme it.**
-Runs entirely in the browser, no build tools required.
+# 🧩 THE CUBE
 
-`Three.js` · `Vanilla JS` · `No Build Tools`
+### A colorful 3D Rubik’s Cube simulator — scramble it, rotate it, theme it, solve it.
 
-![Version](https://img.shields.io/badge/version-0.99.2-7c5cfc?style=flat-square)
-![Three.js](https://img.shields.io/badge/Three.js-r95-4eff88?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-ffa544?style=flat-square)
-![Vanilla JS](https://img.shields.io/badge/Vanilla-JS-cc88ff?style=flat-square)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&duration=2600&pause=850&color=22D3EE&center=true&vCenter=true&width=700&lines=Experience+3D+Rubik's+Cube.;Scramble.+Rotate.+Solve.;Customize+Your+Cube.;Challenge+Your+Best+Time.;Enter+the+World+of+Cubing." alt="Animated Cube project tagline" />
 
-[🚀 Live Demo](https://cube-project.vercel.app/)
+<br />
+
+![Version](https://img.shields.io/badge/version-0.99.2-8B5CF6?style=for-the-badge)
+![Three.js](https://img.shields.io/badge/Three.js-r95-4EFF88?style=for-the-badge)
+![Vanilla JS](https://img.shields.io/badge/Vanilla-JS-FFD93D?style=for-the-badge)
+![WebGL](https://img.shields.io/badge/WebGL-3D-22D3EE?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-FF9F43?style=for-the-badge)
+
+[🚀 **Play the Live Demo**](https://cube-project.vercel.app/) · [📦 **View the Repository**](https://github.com/SairajAgawane/cube-project)
 
 </div>
 
----
+![Neon section separator](readme-assets/neon-separator.svg)
 
-## ✨ Features
+## ✨ FEATURES
 
-| | |
+| Feature | What it does |
 |---|---|
-| 🎲 **Multi-Size Cubes** | Choose between 2×2, 3×3, 4×4, or 5×5. Each size tracks its own stats independently. |
-| 🎨 **5 Built-in Themes** | Switch between Cube, Erno, Dust, Camo, and Rain palettes in a single tap. |
-| 🖌️ **Custom Theme Editor** | Full HSL color picker — tap any face and dial in exactly the color you want. |
-| ⏱️ **Timer & Stats** | Tracks best time, Ao5, Ao12, and Ao25 averages. All data persists across sessions. |
-| 🔀 **Auto Scrambler** | Easy / Medium / Hard scramble difficulty — proper WCA-style move notation. |
-| ⚙️ **Flip Animations** | Three flip styles: Swift, Smooth, and Bounce. Camera FOV goes from ortho to wide. |
-| 📱 **Touch & Mouse** | Full drag support on desktop and mobile. Drag on a face to rotate a layer; drag outside for the whole cube. |
-| 🎉 **Confetti on Solve** | Celebratory particle burst and best-time trophy when you crack it. |
+| 🎲 **Multi-size cubes** | Choose between 2×2, 3×3, 4×4, or 5×5. Each size tracks its own stats independently. |
+| 🎨 **Five built-in themes** | Switch between Cube, Erno, Dust, Camo, and Rain palettes in a single tap. |
+| 🖌️ **Custom theme editor** | Use the HSL color picker to tune the color of any cube face. |
+| ⏱️ **Timer & statistics** | Tracks solves, best time, Ao5, Ao12, and Ao25. Data persists across sessions. |
+| 🔀 **Automatic scrambler** | Choose Easy, Medium, or Hard with WCA-style move notation. |
+| ⚙️ **Three flip animations** | Choose Swift, Smooth, or Bounce camera transitions from orthographic to wide FOV. |
+| 📱 **Touch & mouse controls** | Drag on a face to rotate a layer; drag outside the cube to rotate the whole cube. |
+| 🎉 **Solve celebration** | Trigger a confetti particle burst and best-time trophy when the cube is solved. |
 
----
+![Neon section separator](readme-assets/neon-separator.svg)
 
-## 🎮 How to Play
+## 🎮 HOW TO PLAY
 
 Double-tap the cube to begin. The timer starts on your first move. Solve all six faces to win.
 
-| Action | Gesture / Control |
+| Action | Gesture / control |
 |---|---|
 | Rotate a layer | `Drag` on a cube face |
 | Rotate the whole cube | `Drag` outside the cube |
@@ -46,13 +50,17 @@ Double-tap the cube to begin. The timer starts on your first move. Solve all six
 | View stats | `🏆` icon — bottom left |
 | Back to menu | `←` back icon |
 
----
+![Animated cube controls](readme-assets/hero-cube.svg)
 
-## 🎨 Themes
+![Neon section separator](readme-assets/neon-separator.svg)
 
-Five curated palettes, each with a distinct personality. Or build your own with the HSL picker.
+## 🎨 THEMES & CUSTOMIZATION
 
-| Face | Position | Default Color |
+Five curated palettes give the simulator different personalities, while the custom HSL editor lets you tune individual face colors.
+
+![Cube face color palette](readme-assets/theme-palette.svg)
+
+| Face | Position | Default color |
 |---|---|---|
 | U | Top | ⬜ White (`#f5f5f0`) |
 | F | Front | 🟥 Red (`#e03030`) |
@@ -61,70 +69,86 @@ Five curated palettes, each with a distinct personality. Or build your own with 
 | D | Bottom | 🟨 Yellow (`#f0c020`) |
 | B | Back | 🟧 Orange (`#f07020`) |
 
----
+![Neon section separator](readme-assets/neon-separator.svg)
 
-## 📊 Stats & Records
+## 🏆 STATS & RECORDS
 
-All stats are tracked per cube size and saved automatically to `localStorage` — no account needed.
+All statistics are tracked per cube size and saved automatically to `localStorage` — no account required.
 
-- ✅ **Solves** — tracked
-- 🥇 **Best** — personal record
-- 📈 **Ao5** — rolling average
-- 📊 **Ao12** — rolling average
-- 🔢 **Ao25** — rolling average
+| Record | Meaning |
+|---|---|
+| ✅ **Solves** | Number of completed solves |
+| 🥇 **Best** | Personal best time |
+| 📈 **Ao5** | Rolling average of five solves |
+| 📊 **Ao12** | Rolling average of twelve solves |
+| 🔢 **Ao25** | Rolling average of twenty-five solves |
 
----
+![Neon section separator](readme-assets/neon-separator.svg)
 
-## 🛠️ Tech Stack
+## 🛠️ TECHNOLOGY STACK
 
-- **Three.js r95** — 3D rendering
-- **Vanilla JS (ES6+)** — no frameworks
-- **CSS3 Animations** — UI transitions
-- **LocalStorage** — stats & settings persistence
-- **requestAnimationFrame** — animation loop
-- **WebGL** — graphics backend
-- **Vercel** — hosting / deployment
+| Technology | Role |
+|---|---|
+| [Three.js r95](https://threejs.org/) | 3D scene, camera, lighting, geometry, and cube rendering |
+| Vanilla JavaScript (ES6+) | Game logic and interaction state |
+| CSS3 animations | Interface transitions and responsive presentation |
+| WebGL | Browser graphics backend |
+| `requestAnimationFrame` | Render and animation loop |
+| `localStorage` | Stats and settings persistence |
+| Vercel | Live deployment |
 
----
+![Three.js](https://img.shields.io/badge/Three.js-r95-8B5CF6?style=flat-square&logo=threedotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-FFD93D?style=flat-square&logo=javascript&logoColor=111827)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![WebGL](https://img.shields.io/badge/WebGL-22D3EE?style=flat-square)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-## 📁 Project Structure
+![Neon section separator](readme-assets/neon-separator.svg)
 
-No build step. Clone and open in a browser.
+## 📁 PROJECT STRUCTURE
 
-```
-the-cube/
-├── index.html          # app shell & UI markup
-├── style.css           # fonts, sliders, layout
-├── script.js           # full game logic
-│   ├── AnimationEngine # rAF loop & tweening
-│   ├── World           # Three.js scene, camera, lighting
-│   ├── Cube             # 3D model & geometry
-│   ├── Controls          # drag / touch / layer rotation
-│   ├── Scrambler          # move generation & notation
-│   ├── Timer               # game clock
-│   ├── Scores               # stats & averages
-│   ├── Storage                # localStorage persistence
-│   ├── Themes                  # color schemes
-│   └── Confetti                 # celebration particles
+No build step is required.
+
+```text
+cube-project/
+├── index.html          # App shell and UI markup
+├── style.css           # Fonts, sliders, layout, and responsive styling
+├── script.js           # Full game logic
+│   ├── AnimationEngine # rAF loop and tweening
+│   ├── World           # Three.js scene, camera, and lighting
+│   ├── Cube            # 3D model and geometry
+│   ├── Controls        # Drag, touch, and layer rotation
+│   ├── Scrambler       # Move generation and notation
+│   ├── Timer           # Game clock
+│   ├── Scores          # Stats and averages
+│   ├── Storage         # localStorage persistence
+│   ├── Themes          # Color schemes
+│   └── Confetti         # Celebration particles
+├── readme-assets/
+│   ├── hero-cube.svg
+│   ├── theme-palette.svg
+│   └── neon-separator.svg
 └── README.md
 ```
 
----
+![Neon section separator](readme-assets/neon-separator.svg)
 
-## 🚀 Run Locally
+## 🚀 RUN LOCALLY
 
-No build step required. Clone, serve, and play.
+No build tools are required. Clone the repository and serve the static files.
 
 ```bash
-# Clone the repo
-git clone https://github.com/your-username/the-cube.git
-cd the-cube
+git clone https://github.com/SairajAgawane/cube-project.git
+cd cube-project
 
-# Serve locally
+# Option 1: static server through npx
 npx serve .
-# or
+
+# Option 2: Python's built-in server
 python -m http.server 8080
 ```
+
+Then open the URL printed by your local server.
 
 ### Deploy to Vercel
 
@@ -133,18 +157,19 @@ npm install -g vercel
 vercel
 ```
 
----
+The live deployment is available at [cube-project.vercel.app](https://cube-project.vercel.app/).
 
-## 📄 License
+![Neon section separator](readme-assets/neon-separator.svg)
 
-MIT License
+## 📄 LICENSE
 
----
+This project is released under the [MIT License](https://opensource.org/licenses/MIT).
 
 <div align="center">
 
 Built with ❤️ and [Three.js](https://threejs.org/) · Inspired by Ernő Rubik (1974)
 
-[cube-project.vercel.app](https://cube-project.vercel.app/)
+[🚀 cube-project.vercel.app](https://cube-project.vercel.app/)
 
 </div>
+
